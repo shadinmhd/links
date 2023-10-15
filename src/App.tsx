@@ -1,12 +1,13 @@
 import { useEffect } from "react"
 import profileImage from "./assets/profile.png"
-import { motion, useAnimate, usePresence } from "framer-motion"
+import { useAnimate } from "framer-motion"
 import Link from "./components/Link"
 import { faEarth } from "@fortawesome/free-solid-svg-icons/faEarth"
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons"
 import { faInstagram } from "@fortawesome/free-brands-svg-icons/faInstagram"
 
 const App = () => {
+	// @ts-ignore
 	const [scope, animate] = useAnimate()
 
 	useEffect(() => {
