@@ -30,7 +30,7 @@ const App = () => {
 					Instagram
 				</Link>
 				<Link index={3} icon={faWhatsapp} to="https://wa.me/+918589908074" >
-					Instagram
+					Whatsapp
 				</Link>
 
 			</div>
