@@ -3,7 +3,6 @@ import Link from "./components/Link"
 import { faEarth } from "@fortawesome/free-solid-svg-icons/faEarth"
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons"
 import { faInstagram } from "@fortawesome/free-brands-svg-icons/faInstagram"
-import { faWhatsapp } from "@fortawesome/free-brands-svg-icons/faWhatsapp"
 
 const App = () => {
 
@@ -29,10 +28,6 @@ const App = () => {
 				<Link index={3} icon={faInstagram} to="https://www.instagram.com/_sh.dn_/" >
 					Instagram
 				</Link>
-				<Link index={3} icon={faWhatsapp} to="https://wa.me/+918589908074" >
-					Whatsapp
-				</Link>
-
 			</div>
 		</div>
 	)
